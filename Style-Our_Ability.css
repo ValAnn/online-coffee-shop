@@ -126,7 +126,7 @@ main {
 }
 
 .icon-window {   
-    position: absolute;
+    
     width: 150.38px;
     height: 150px;
  
@@ -142,7 +142,7 @@ main {
     padding: 15px 30px;
     gap: 10px;
 
-    position: absolute;
+    
     width: 225.39px;
     height: 60px;
   
