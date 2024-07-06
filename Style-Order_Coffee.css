@@ -1,49 +1,29 @@
 @import "Style-Fonts.css";
 
-.order_coffee {
+.order-coffee {
     position: absolute;
-    width: 1233px;
-    height: 471.27px;
+    display: flex;
+    flex-direction: row;
+    /* width: 1233px;
+    height: 471.27px; */
     /* left: 100px; */
     top: 2120px;
+    margin: 10px;
 }
 
 /* illustration */
-
-.order_coffee-illustration {
-    position: absolute;
-    width: 680px;
-    height: 471.27px;
-    left: 0px;
-    top: 0px;
-    margin: 0 auto;
-}
-
-.order_coffee-illustration svg {
-    position: absolute;
-    width: 680px;
-    height: 471.27px;
-    left: 0px;
-    top: 0px;
-    margin: 0 auto;
-}
 
 .order_coffee-info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
-    gap: 60px;
-
-    position: absolute;
-    width: 513px;
-    height: 440px;
-    left: 720px;
-    top: 15.63px;
-    bottom: 15.63px;
+    flex-grow: 1;
+    
+    gap: 6vh;
+  
 }
 
-.header-order_coffee {
+.header-order-coffee {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,13 +31,13 @@
     padding: 0px;
     gap: 30px;
 
-    width: Hug (512px)px;
-    height: Hug (310px)px;
+    /* width: Hug (512px)px;
+    height: Hug (310px)px; */
 }
 
-.header-order_coffee h2 {
-    width: 512px;
-    height: 140px;
+.header-order-coffee h2 {
+    /* width: 512px;
+    height: 140px; */
 
     font-family: 'Jost';
     font-style: normal;
@@ -70,9 +50,9 @@
     color: rgba(27, 27, 29, 1);
 }
 
-.header-order_coffee p {
-    width: 512px;
-    height: 140px;
+.header-order-coffee p {
+    /* width: 512px;
+    height: 140px; */
 
     font-family: 'Jost';
     font-style: normal;
@@ -85,16 +65,16 @@
     margin: 0 auto;
 }
 
-.button-order_coffee {
+.button-order-coffee {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 20px 40px;
+    /* padding: 20px 40px; */
     gap: 10px;
 
-    width: 191px;
-    height: 70px;
+    /* width: 191px;
+    height: 70px; */
 
     background: rgba(27, 27, 29, 1);
     border-radius: 126px;
@@ -103,17 +83,17 @@
     border: none;
 }
 
-.button-order_coffee:hover {
+.button-order-coffee:hover {
     background-color: rgba(100, 100, 106, 1);
  }
 
- .button-order_coffee:active {
+ .button-order-coffee:active {
     box-shadow: 2px 2px 5px rgba(27, 27, 29, 1);
  }
 
-.button-order_coffee-text {
-    width: 111px;
-    height: 30px;
+.button-order-coffee-text {
+    /* width: 111px;
+    height: 30px; */
 
     font-family: 'Jost';
     font-style: normal;
@@ -123,4 +103,24 @@
     text-transform: uppercase;
 
     color: rgba(255, 255, 255, 1);
+}
+.order-coffee-illustration img{
+    max-width: 600px; 
+}
+
+.order-coffee-illustration svg{
+    position: absolute;
+    left: 0;
+    max-width: 600px;
+}
+
+@media screen and (max-width: 1233px) {
+    .order-coffee-illustration {
+        display: none; 
+    }
+    .order_coffee-info {
+
+        align-items: center;
+      
+    }
 }
