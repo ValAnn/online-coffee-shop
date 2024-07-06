@@ -3,69 +3,62 @@
 /* header */
 
 .customer_reviews {
+  
     position: absolute;
-    width: 1240px;
-    height: 988px;
+    width: 100%;
+    /* height: 988px; */
     /* left: 100px; */
     top: 2731.27px;
+    justify-content: center;
 }
+
 
 .customer_reviews-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px;
-    gap: 40px;
+  
+    /* gap: 40px; */
 
-    position: absolute;
-    width: Hug (454px)px;
-    height: Hug (240px)px;
-    left: 393px;
-    top: 0px;
-}
-
-.header-customer_reviews {  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 20px;
-
-    width: Hug (454px)px;
-    height: Hug (140px)px;
+    /* position: absolute; */
+    width: 50%;
+   
+    /* left: 393px; */
+    /* top: 0px; */
 }
 
 .header-customer_reviews h2 {
-    width: 454px;
-    height: 140px;
+    /* width: 454px;
+    height: 140px; */
+    width: 100%;
+    height: 100%;
 
     font-family: 'Jost';
     font-style: normal;
     font-weight: 800;
-    font-size: 64px;
-    line-height: 70px;
+    font-size: 3em;
+    /* line-height: 70px; */
     text-align: center;
 
     color: rgba(27, 27, 29, 1);
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .customer_reviews-overall_rating {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+    /* padding: 0px; */
     gap: 24px;
 
-    width: Hug (300px)px;
-    height: Hug (60px)px;
+    /* width: Hug (300px)px;
+    height: Hug (60px)px; */
 }
 
 .customer_reviews-overall_rating-estimation {
-    width: 65px;
-    height: 40px;
+    /* width: 65px;
+    height: 40px; */
 
     font-family: 'Jost';
     font-style: normal;
@@ -85,8 +78,8 @@
     padding: 0px;
     gap: 8px;
 
-    width: Hug (211px)px;
-    height: Hug (60px)px;
+    /* width: Hug (211px)px;
+    height: Hug (60px)px; */
 
     margin: 0 auto;
 }
@@ -97,15 +90,15 @@
     align-items: flex-start;
     padding: 0px;
 
-    width: Hug (120px)px;
-    height: Hug (24px)px;
+    /* width: Hug (120px)px;
+    height: Hug (24px)px; */
 
     text-align: left;
 }
 
 .figcaption-star {
-    width: 211px;
-    height: 28px;
+    /* width: 211px;
+    height: 28px; */
 
     font-family: 'Jost';
     font-style: normal;
